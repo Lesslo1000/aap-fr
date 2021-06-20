@@ -7,8 +7,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color: purple;
   text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid #EFEFEF;
 }
 
 * {
