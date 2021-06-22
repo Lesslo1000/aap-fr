@@ -28,12 +28,15 @@ export default function Home() {
           Contactez nous
         </a>
 
+        <a href="/espace-institut-japonais">institut japonais</a>
       </main>
+
+
 
       <footer className={styles.footer}>
         Copyright {year} - Assistance Pédagogie - Tous droits réservés
         <div>
-          <span>Propulsé par Vercel
+          <span>Propulsé par vercel.com
           </span>
         </div>
       </footer>
