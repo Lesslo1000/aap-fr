@@ -4,16 +4,41 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url(/background.jpg);
+    color: #FFF;
+    animation: bg-anim 10s infinite alternate ease-in-out;
+    background-position: bottom left;
+}
+
+@keyframes bg-anim {
+  0% {
+    background-size: 150%;
+    background-position: top right;
+  }
+  25% {
+    background-size: 120%;
+    background-position-x: 10%;
+    background-position: bottom left;
+  }
+
+  50% {
+    background-size: 130%;
+    background-position: bottom right;
+  }
+  100% {
+    background-size: 150%;
+    background-position: top right;
+  }
 }
 
 a {
-  color: purple;
+  color: white;
   text-decoration: none;
 }
 
 hr {
   width: 100%;
-  border-top: 1px solid #EFEFEF;
+  border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 * {

@@ -10,11 +10,9 @@ export default function Home() {
         <title>Home - Assistance Pédagogie</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
       <main className={styles.main}>
         <h1>Assistance Pédagogie</h1>
         <h3>Bienvenue sur notre site internet !</h3>
-        <Image src="/background.jpg" width="500px" height="300px" />
         <p>Nous sommes une entreprise qui a un institut japonais, un service informatique
           et une école de piano et de solfège. </p>
 
