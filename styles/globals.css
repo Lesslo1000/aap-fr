@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-image: url(/background.jpg);
     color: #FFF;
-    animation: bg-anim 10s infinite alternate ease-in-out;
+    animation: bg-anim 120s infinite alternate ease-in-out;
     background-position: bottom left;
 }
 
